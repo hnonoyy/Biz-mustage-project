@@ -6,9 +6,9 @@
 <title>뮤스테이션</title>
 <form class="user login" method="POST">
 	<fieldset>
-		<span>로그인</span>
-		<input type="text" placeholder="ID를 입력하세요" name="username" /> 
-		<input type="password" placeholder="PASSWORD를 입력하세요" name="password" /> 
+		<p>로그인</p>
+		<input type="text" placeholder="ID를 입력하세요" name="id" /><span>*</span> 
+		<input type="password" placeholder="PASSWORD를 입력하세요" name="password" /><span>*</span> 
 		<button>로그인</button>
 	</fieldset>
 </form>

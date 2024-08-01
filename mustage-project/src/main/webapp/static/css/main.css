@@ -35,9 +35,10 @@ header {
     border: none;
     i {
       position: absolute;
-      top: 10px;
+      /* top: 47px;
       bottom: 5px;
-      right: 5px;
+      left: 140px;
+      right: 10px; */
       color: #ccc;
     }
   }

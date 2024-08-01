@@ -7,7 +7,10 @@
 <form class="user join" method="POST">
 	<fieldset>
 		<div>
-		<span>회원가입</span>
+		<p>회원가입</p>
+		<c:if test="${JOIN_MSG == 'FAIL' }">
+				<h3>회원가입에 실패 했습니다.</h3>
+		</c:if>
 		</div>
 		<input type="text" placeholder="ID" name="id" /> <span>*</span>
 		<input type="password" placeholder="PASSWORD" name="password" /> <span>*</span>
